@@ -1,0 +1,274 @@
+stack begin at 7fffffffe1ec
+mem region begin at 4be000
+mem size afc8000, b486000
+create master
+wait on x: 4bd000, -1
+wait on x: 4bd000, 0
+cpu id 52e41d8
+start dsm main 52e41e0
+start dsm main 0
+cpu list addr 4be018
+start running thread lib
+sys lock at: ../src/lib/threadlib/thread.cpp, 88
+ENQUEUE 4be0e8
+sys unlock at: ../src/lib/threadlib/thread.cpp, 100
+sys lock at: ../src/lib/threadlib/cpu.cpp, 69
+sys unlock at: ../src/lib/threadlib/cpu.cpp, 69
+sys lock at: ../src/lib/threadlib/cpu.cpp, 71
+sys unlock at: ../src/lib/threadlib/cpu.cpp, 73
+sys lock at: ../src/lib/threadlib/cpu.cpp, 84
+sys unlock at: ../src/lib/threadlib/cpu.cpp, 85
+sys lock at: ../src/include/threadlib/schedulerState.h, 73
+DEQUEUE 4be0e8
+ctx_switch 4be060, 4be058
+4be4f0, 4be0e8
+sys unlock at: ../src/lib/threadlib/thread.cpp, 35
+---------------run user code now-------------
+sys lock at: ../src/lib/threadlib/thread.cpp, 88
+ENQUEUE 4be900
+sys unlock at: ../src/lib/threadlib/thread.cpp, 100
+sys lock at: ../src/lib/threadlib/thread.cpp, 88
+ENQUEUE 4bed58
+sys unlock at: ../src/lib/threadlib/thread.cpp, 100
+sys lock at: ../src/lib/threadlib/thread.cpp, 120
+DEQUEUE 4be900
+swap with next
+ctx_switch 4be060, 4be058
+4be0e8, 4be900
+sys unlock at: ../src/lib/threadlib/thread.cpp, 35
+PRODUCER STACK 51e3f8f
+x 52e4630 has been set to 1
+x 52e4630 has been set to 1
+x 52e4630 has been set to 1
+x 52e4630 has been set to 1
+x 52e4630 has been set to 1
+x 52e4630 has been set to 1
+x 52e4630 has been set to 1
+GRANT write at address 52f7510, 1741018487
+x 52e4630 has been set to 1
+GRANT write at address 52e4630, 1741018489
+x 52e4630 has been set to 1
+GRANT write at address 4be000, 1741018491
+GRANT write at address 52de000, 1741018493
+GRANT write at address 52f7510, 1741018494
+x 52e4630 has been set to 1
+GRANT write at address 4be000, 1741018496
+GRANT write at address 52e4630, 1741018497
+GRANT write at address 52de000, 1741018498
+GRANT write at address 52f7510, 1741018499
+x 52e4630 has been set to 0
+GRANT write at address 52de058, 1741018502
+GRANT write at address 52f751d, 1741018503
+sys lock at: 0
+sys lock at: ../src/lib/threadlib/mutex.cpp, 64
+GRANT write at address 52e41d0, 1741018504
+GRANT write at address 52e41d0, 1741018507
+GRANT write at address 4be000, 1741018508
+GRANT write at address 52de000, 1741018509
+GRANT write at address 52f7510, 1741018510
+do previleged lock
+lock aquired
+GRANT write at address 52e4300, 1741018511
+this: 52e42e0
+tid map 52de180
+tid map 52de180, cpu self 4be040, current ctx: 4be900
+lock aquired done
+sys unlock at: ../src/lib/threadlib/mutex.cpp, 66
+lock status after aquire: 1
+enqueue: 0
+GRANT write at address 4bf131, 1741018512
+GRANT write at address 52e42b8, 1741018513
+Produced: 0
+sys lock at: ../src/lib/threadlib/cv.cpp, 40
+GRANT write at address 52e41d0, 1741018515
+GRANT write at address 52e41d0, 1741018518
+GRANT write at address 4be000, 1741018519
+GRANT write at address 4bf131, 1741018520
+GRANT write at address 52e42b8, 1741018521
+GRANT write at address 52de000, 1741018522
+GRANT write at address 52f7510, 1741018523
+ENQUEUE 4bed58
+GRANT write at address 52e42b8, 1741018524
+sys unlock at: ../src/lib/threadlib/cv.cpp, 44
+sys lock at: ../src/lib/threadlib/mutex.cpp, 76
+sys unlock at: ../src/lib/threadlib/mutex.cpp, 81
+lock status: 0
+sys lock at: ../src/lib/threadlib/mutex.cpp, 64
+do previleged lock
+lock aquired
+this: 52e42e0
+tid map 52de180
+tid map 52de180, cpu self 4be040, current ctx: 4be900
+lock aquired done
+sys unlock at: ../src/lib/threadlib/mutex.cpp, 66
+lock status after aquire: 1
+producer wait on mutex 52e42e0
+current stack address before: 51e3f4c
+sys lock at: ../src/lib/threadlib/cv.cpp, 17
+DEQUEUE 4bed58
+swap with next
+ctx_switch 4be060, 4be058
+4be900, 4bed58
+GRANT write at address 50e9ec8, 1741018525
+sys unlock at: ../src/lib/threadlib/cv.cpp, 29
+sys lock at: ../src/lib/threadlib/mutex.cpp, 64
+do previleged lock
+GRANT write at address 52e4300, 1741018526
+lock aquired
+this: 52e42e0
+tid map 52de180
+tid map 52de180, cpu self 4be040, current ctx: 4bed58
+GRANT write at address 52e01d0, 1741018527
+lock aquired done
+sys unlock at: ../src/lib/threadlib/mutex.cpp, 66
+current stack address after: 50e9f5c
+front
+deque
+GRANT write at address 52e42b8, 1741018529
+Consumed: 0
+sys lock at: ../src/lib/threadlib/cv.cpp, 40
+GRANT write at address 52e41d0, 1741018533
+GRANT write at address 4be000, 1741018534
+GRANT write at address 4bf131, 1741018535
+GRANT write at address 52e42b8, 1741018536
+GRANT write at address 52de000, 1741018537
+GRANT write at address 52f7510, 1741018538
+ENQUEUE 4be900
+GRANT write at address 52e42b8, 1741018539
+sys unlock at: ../src/lib/threadlib/cv.cpp, 44
+sys lock at: ../src/lib/threadlib/mutex.cpp, 76
+sys unlock at: ../src/lib/threadlib/mutex.cpp, 81
+sys lock at: ../src/lib/threadlib/mutex.cpp, 64
+do previleged lock
+lock aquired
+this: 52e42e0
+tid map 52de180
+tid map 52de180, cpu self 4be040, current ctx: 4bed58
+lock aquired done
+sys unlock at: ../src/lib/threadlib/mutex.cpp, 66
+consumer wait on mutex 52e42e0
+current stack address before: 50e9f5c
+sys lock at: ../src/lib/threadlib/cv.cpp, 17
+DEQUEUE 4be900
+swap with next
+ctx_switch 4be060, 4be058
+4bed58, 4be900
+sys unlock at: ../src/lib/threadlib/cv.cpp, 29
+sys lock at: ../src/lib/threadlib/mutex.cpp, 64
+do previleged lock
+lock aquired
+this: 52e42e0
+tid map 52de180
+tid map 52de180, cpu self 4be040, current ctx: 4be900
+lock aquired done
+sys unlock at: ../src/lib/threadlib/mutex.cpp, 66
+current stack address after: 51e3f4c
+enqueue: 1
+Produced: 1
+sys lock at: ../src/lib/threadlib/cv.cpp, 40
+ENQUEUE 4bed58
+sys unlock at: ../src/lib/threadlib/cv.cpp, 44
+sys lock at: ../src/lib/threadlib/mutex.cpp, 76
+sys unlock at: ../src/lib/threadlib/mutex.cpp, 81
+lock status: 0
+sys lock at: ../src/lib/threadlib/mutex.cpp, 64
+do previleged lock
+lock aquired
+this: 52e42e0
+tid map 52de180
+tid map 52de180, cpu self 4be040, current ctx: 4be900
+lock aquired done
+sys unlock at: ../src/lib/threadlib/mutex.cpp, 66
+lock status after aquire: 1
+producer wait on mutex 52e42e0
+current stack address before: 51e3f4c
+sys lock at: ../src/lib/threadlib/cv.cpp, 17
+DEQUEUE 4bed58
+swap with next
+ctx_switch 4be060, 4be058
+4be900, 4bed58
+sys unlock at: ../src/lib/threadlib/cv.cpp, 29
+sys lock at: ../src/lib/threadlib/mutex.cpp, 64
+do previleged lock
+lock aquired
+this: 52e42e0
+tid map 52de180
+tid map 52de180, cpu self 4be040, current ctx: 4bed58
+lock aquired done
+sys unlock at: ../src/lib/threadlib/mutex.cpp, 66
+current stack address after: 50e9f5c
+front
+deque
+Consumed: 1
+sys lock at: ../src/lib/threadlib/cv.cpp, 40
+ENQUEUE 4be900
+sys unlock at: ../src/lib/threadlib/cv.cpp, 44
+sys lock at: ../src/lib/threadlib/mutex.cpp, 76
+sys unlock at: ../src/lib/threadlib/mutex.cpp, 81
+sys lock at: ../src/lib/threadlib/mutex.cpp, 64
+do previleged lock
+lock aquired
+this: 52e42e0
+tid map 52de180
+tid map 52de180, cpu self 4be040, current ctx: 4bed58
+lock aquired done
+sys unlock at: ../src/lib/threadlib/mutex.cpp, 66
+consumer wait on mutex 52e42e0
+current stack address before: 50e9f5c
+sys lock at: ../src/lib/threadlib/cv.cpp, 17
+DEQUEUE 4be900
+swap with next
+ctx_switch 4be060, 4be058
+4bed58, 4be900
+sys unlock at: ../src/lib/threadlib/cv.cpp, 29
+sys lock at: ../src/lib/threadlib/mutex.cpp, 64
+do previleged lock
+lock aquired
+this: 52e42e0
+tid map 52de180
+tid map 52de180, cpu self 4be040, current ctx: 4be900
+lock aquired done
+sys unlock at: ../src/lib/threadlib/mutex.cpp, 66
+current stack address after: 51e3f4c
+enqueue: 2
+Produced: 2
+sys lock at: ../src/lib/threadlib/cv.cpp, 40
+ENQUEUE 4bed58
+sys unlock at: ../src/lib/threadlib/cv.cpp, 44
+sys lock at: ../src/lib/threadlib/mutex.cpp, 76
+sys unlock at: ../src/lib/threadlib/mutex.cpp, 81
+sys lock at: ../src/lib/threadlib/thread.cpp, 40
+ENQUEUE 4be0e8
+sys unlock at: ../src/lib/threadlib/thread.cpp, 42
+sys lock at: ../src/include/threadlib/schedulerState.h, 90
+DEQUEUE 4bed58
+sys unlock at: ../src/lib/threadlib/cv.cpp, 29
+sys lock at: ../src/lib/threadlib/mutex.cpp, 64
+do previleged lock
+lock aquired
+this: 52e42e0
+tid map 52de180
+tid map 52de180, cpu self 4be040, current ctx: 4bed58
+lock aquired done
+sys unlock at: ../src/lib/threadlib/mutex.cpp, 66
+current stack address after: 50e9f5c
+front
+deque
+Consumed: 2
+sys lock at: ../src/lib/threadlib/cv.cpp, 40
+sys unlock at: ../src/lib/threadlib/cv.cpp, 44
+sys lock at: ../src/lib/threadlib/mutex.cpp, 76
+sys unlock at: ../src/lib/threadlib/mutex.cpp, 81
+sys lock at: ../src/lib/threadlib/thread.cpp, 40
+sys unlock at: ../src/lib/threadlib/thread.cpp, 42
+sys lock at: ../src/include/threadlib/schedulerState.h, 90
+DEQUEUE 4be0e8
+sys unlock at: ../src/lib/threadlib/thread.cpp, 124
+sys lock at: ../src/lib/threadlib/thread.cpp, 120
+sys unlock at: ../src/lib/threadlib/thread.cpp, 124
+complete!!!
+sys lock at: ../src/lib/threadlib/thread.cpp, 40
+sys unlock at: ../src/lib/threadlib/thread.cpp, 42
+sys lock at: ../src/include/threadlib/schedulerState.h, 90
+sys unlock at: ../src/include/threadlib/schedulerState.h, 81
+ptrace: No such process

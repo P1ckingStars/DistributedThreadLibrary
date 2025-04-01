@@ -1,0 +1,6 @@
+/home/arthur/Documents/repos/DistributedThreadLibrary/build/CMakeFiles/test2.dir
+/home/arthur/Documents/repos/DistributedThreadLibrary/build/CMakeFiles/edit_cache.dir
+/home/arthur/Documents/repos/DistributedThreadLibrary/build/CMakeFiles/rebuild_cache.dir
+/home/arthur/Documents/repos/DistributedThreadLibrary/build/src/lib/CMakeFiles/DSMLib.dir
+/home/arthur/Documents/repos/DistributedThreadLibrary/build/src/lib/CMakeFiles/edit_cache.dir
+/home/arthur/Documents/repos/DistributedThreadLibrary/build/src/lib/CMakeFiles/rebuild_cache.dir

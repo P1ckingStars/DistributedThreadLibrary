@@ -1,0 +1,80 @@
+[
+{
+  "directory": "/home/arthur/Documents/repos/DistributedThreadLibrary/build",
+  "command": "/usr/bin/c++  -I/home/arthur/Documents/repos/DistributedThreadLibrary/build -I/home/arthur/Documents/repos/DistributedThreadLibrary/src/include -std=gnu++11 -fno-stack-protector -o CMakeFiles/test2.dir/examples/test2.cpp.o -c /home/arthur/Documents/repos/DistributedThreadLibrary/examples/test2.cpp",
+  "file": "/home/arthur/Documents/repos/DistributedThreadLibrary/examples/test2.cpp",
+  "output": "CMakeFiles/test2.dir/examples/test2.cpp.o"
+},
+{
+  "directory": "/home/arthur/Documents/repos/DistributedThreadLibrary/build/src/lib",
+  "command": "/usr/bin/c++  -I/home/arthur/Documents/repos/DistributedThreadLibrary/src/include -std=gnu++11 -o CMakeFiles/DSMLib.dir/dsm_lock.cpp.o -c /home/arthur/Documents/repos/DistributedThreadLibrary/src/lib/dsm_lock.cpp",
+  "file": "/home/arthur/Documents/repos/DistributedThreadLibrary/src/lib/dsm_lock.cpp",
+  "output": "src/lib/CMakeFiles/DSMLib.dir/dsm_lock.cpp.o"
+},
+{
+  "directory": "/home/arthur/Documents/repos/DistributedThreadLibrary/build/src/lib",
+  "command": "/usr/bin/c++  -I/home/arthur/Documents/repos/DistributedThreadLibrary/src/include -std=gnu++11 -o CMakeFiles/DSMLib.dir/main.cpp.o -c /home/arthur/Documents/repos/DistributedThreadLibrary/src/lib/main.cpp",
+  "file": "/home/arthur/Documents/repos/DistributedThreadLibrary/src/lib/main.cpp",
+  "output": "src/lib/CMakeFiles/DSMLib.dir/main.cpp.o"
+},
+{
+  "directory": "/home/arthur/Documents/repos/DistributedThreadLibrary/build/src/lib",
+  "command": "/usr/bin/c++  -I/home/arthur/Documents/repos/DistributedThreadLibrary/src/include -std=gnu++11 -o CMakeFiles/DSMLib.dir/dsm_node.cpp.o -c /home/arthur/Documents/repos/DistributedThreadLibrary/src/lib/dsm_node.cpp",
+  "file": "/home/arthur/Documents/repos/DistributedThreadLibrary/src/lib/dsm_node.cpp",
+  "output": "src/lib/CMakeFiles/DSMLib.dir/dsm_node.cpp.o"
+},
+{
+  "directory": "/home/arthur/Documents/repos/DistributedThreadLibrary/build/src/lib",
+  "command": "/usr/bin/cc  -I/home/arthur/Documents/repos/DistributedThreadLibrary/src/include  -o CMakeFiles/DSMLib.dir/injection.s.o -c /home/arthur/Documents/repos/DistributedThreadLibrary/src/lib/injection.s",
+  "file": "/home/arthur/Documents/repos/DistributedThreadLibrary/src/lib/injection.s",
+  "output": "src/lib/CMakeFiles/DSMLib.dir/injection.s.o"
+},
+{
+  "directory": "/home/arthur/Documents/repos/DistributedThreadLibrary/build/src/lib",
+  "command": "/usr/bin/c++  -I/home/arthur/Documents/repos/DistributedThreadLibrary/src/include -std=gnu++11 -o CMakeFiles/DSMLib.dir/user_mprotect.cpp.o -c /home/arthur/Documents/repos/DistributedThreadLibrary/src/lib/user_mprotect.cpp",
+  "file": "/home/arthur/Documents/repos/DistributedThreadLibrary/src/lib/user_mprotect.cpp",
+  "output": "src/lib/CMakeFiles/DSMLib.dir/user_mprotect.cpp.o"
+},
+{
+  "directory": "/home/arthur/Documents/repos/DistributedThreadLibrary/build/src/lib",
+  "command": "/usr/bin/c++  -I/home/arthur/Documents/repos/DistributedThreadLibrary/src/include -std=gnu++11 -o CMakeFiles/DSMLib.dir/threadlib/cpu.cpp.o -c /home/arthur/Documents/repos/DistributedThreadLibrary/src/lib/threadlib/cpu.cpp",
+  "file": "/home/arthur/Documents/repos/DistributedThreadLibrary/src/lib/threadlib/cpu.cpp",
+  "output": "src/lib/CMakeFiles/DSMLib.dir/threadlib/cpu.cpp.o"
+},
+{
+  "directory": "/home/arthur/Documents/repos/DistributedThreadLibrary/build/src/lib",
+  "command": "/usr/bin/c++  -I/home/arthur/Documents/repos/DistributedThreadLibrary/src/include -std=gnu++11 -o CMakeFiles/DSMLib.dir/threadlib/cv.cpp.o -c /home/arthur/Documents/repos/DistributedThreadLibrary/src/lib/threadlib/cv.cpp",
+  "file": "/home/arthur/Documents/repos/DistributedThreadLibrary/src/lib/threadlib/cv.cpp",
+  "output": "src/lib/CMakeFiles/DSMLib.dir/threadlib/cv.cpp.o"
+},
+{
+  "directory": "/home/arthur/Documents/repos/DistributedThreadLibrary/build/src/lib",
+  "command": "/usr/bin/c++  -I/home/arthur/Documents/repos/DistributedThreadLibrary/src/include -std=gnu++11 -o CMakeFiles/DSMLib.dir/threadlib/dsm_cpu_impl.cpp.o -c /home/arthur/Documents/repos/DistributedThreadLibrary/src/lib/threadlib/dsm_cpu_impl.cpp",
+  "file": "/home/arthur/Documents/repos/DistributedThreadLibrary/src/lib/threadlib/dsm_cpu_impl.cpp",
+  "output": "src/lib/CMakeFiles/DSMLib.dir/threadlib/dsm_cpu_impl.cpp.o"
+},
+{
+  "directory": "/home/arthur/Documents/repos/DistributedThreadLibrary/build/src/lib",
+  "command": "/usr/bin/c++  -I/home/arthur/Documents/repos/DistributedThreadLibrary/src/include -std=gnu++11 -o CMakeFiles/DSMLib.dir/threadlib/mutex.cpp.o -c /home/arthur/Documents/repos/DistributedThreadLibrary/src/lib/threadlib/mutex.cpp",
+  "file": "/home/arthur/Documents/repos/DistributedThreadLibrary/src/lib/threadlib/mutex.cpp",
+  "output": "src/lib/CMakeFiles/DSMLib.dir/threadlib/mutex.cpp.o"
+},
+{
+  "directory": "/home/arthur/Documents/repos/DistributedThreadLibrary/build/src/lib",
+  "command": "/usr/bin/c++  -I/home/arthur/Documents/repos/DistributedThreadLibrary/src/include -std=gnu++11 -o CMakeFiles/DSMLib.dir/threadlib/schedulerState.cpp.o -c /home/arthur/Documents/repos/DistributedThreadLibrary/src/lib/threadlib/schedulerState.cpp",
+  "file": "/home/arthur/Documents/repos/DistributedThreadLibrary/src/lib/threadlib/schedulerState.cpp",
+  "output": "src/lib/CMakeFiles/DSMLib.dir/threadlib/schedulerState.cpp.o"
+},
+{
+  "directory": "/home/arthur/Documents/repos/DistributedThreadLibrary/build/src/lib",
+  "command": "/usr/bin/c++  -I/home/arthur/Documents/repos/DistributedThreadLibrary/src/include -std=gnu++11 -o CMakeFiles/DSMLib.dir/threadlib/thread.cpp.o -c /home/arthur/Documents/repos/DistributedThreadLibrary/src/lib/threadlib/thread.cpp",
+  "file": "/home/arthur/Documents/repos/DistributedThreadLibrary/src/lib/threadlib/thread.cpp",
+  "output": "src/lib/CMakeFiles/DSMLib.dir/threadlib/thread.cpp.o"
+},
+{
+  "directory": "/home/arthur/Documents/repos/DistributedThreadLibrary/build/src/lib",
+  "command": "/usr/bin/c++  -I/home/arthur/Documents/repos/DistributedThreadLibrary/src/include -std=gnu++11 -o CMakeFiles/DSMLib.dir/util/lin_allocator.cpp.o -c /home/arthur/Documents/repos/DistributedThreadLibrary/src/lib/util/lin_allocator.cpp",
+  "file": "/home/arthur/Documents/repos/DistributedThreadLibrary/src/lib/util/lin_allocator.cpp",
+  "output": "src/lib/CMakeFiles/DSMLib.dir/util/lin_allocator.cpp.o"
+}
+]

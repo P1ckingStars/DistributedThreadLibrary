@@ -1,0 +1,12 @@
+2 node 2 tasks 23433624
+1 node 2 tasks 26826217
+2 node 4 tasks 41851690
+1 node 4 tasks 53668620
+2 node 6 tasks 57758266
+1 node 6 tasks 81544726
+1 node 2 hardtasks 53747263
+2 node 2 hardtasks 41288707
+1 node 4 hardtasks 107287641
+2 node 4 hardtasks 75972650
+2 node 6 hardtasks 103726326
+1 node 6 hardtasks 157663019
