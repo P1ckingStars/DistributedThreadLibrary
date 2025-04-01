@@ -1,1 +1,0 @@
-/usr/bin/c++ -T/home/arthur/Documents/repos/DistributedThreadLibrary/linker.ld -Wl,--dependency-file=CMakeFiles/test2.dir/link.d CMakeFiles/test2.dir/examples/test2.cpp.o -o test2  src/lib/libDSMLib.a -lrpc
